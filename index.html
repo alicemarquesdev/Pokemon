@@ -32,17 +32,9 @@
       <h2>{{ pokemon.name }}</h2>
 
       <ul class="pokemon-details">
-        <li><strong>ID:</strong> {{ pokemon.id }}</li>
         <li><strong>Altura:</strong> {{ pokemon.height }}</li>
         <li><strong>Peso:</strong> {{ pokemon.weight }}</li>
         <li><strong>XP Base:</strong> {{ pokemon.base_experience }}</li>
-
-        <li>
-          <strong>Tipos:</strong>
-          <span ng-repeat="t in pokemon.types">
-            {{ t.type.name }}{{$last ? '' : ', '}}
-          </span>
-        </li>
 
         <li>
           <strong>Habilidades:</strong>
@@ -55,6 +47,17 @@
       <div class="pokemon-sprite">
         <img ng-if="pokemon.sprites" ng-src="{{ displaySprite }}" alt="{{ pokemon.name }}" />
       </div>
+
+      <div class="types-container">
+        <span 
+            class="type-box" 
+            ng-repeat="t in pokemon.types" 
+            ng-class="'type-' + t.type.name">
+          {{ t.type.name }}
+        </span>
+      </div>
+
+      <hr class="separador" />
 
       <div class="btn-group">
         <button ng-click="changeSprite('front_default')">Frente</button>
