@@ -2,7 +2,7 @@ var app = angular.module("Pokemon", ['ngCookies']);
 
 app.controller("MainController", function ($scope, $http, $cookies) {
 
-  const savedPokemons = $cookies.getObject('pokemonsSalvos');
+  const savedPokemons = $cookies.getObject('listaPokemons');
   $scope.pokemons = Array.isArray(savedPokemons) ? savedPokemons : [];
   $scope.displaySprite = '';
   $scope.error = null;
@@ -16,7 +16,7 @@ app.controller("MainController", function ($scope, $http, $cookies) {
 
     if (!$scope.pokemons.includes(name)) {
       $scope.pokemons.push(name);
-      $cookies.putObject('pokemonsSalvos', $scope.pokemons);
+      $cookies.putObject('listaPokemons', $scope.pokemons);
     }
 
     $scope.name = '';
@@ -51,9 +51,9 @@ app.controller("MainController", function ($scope, $http, $cookies) {
     }
   };
 
-  $scope.limparLista = function () {
+  $scope.clearList = function () {
     $scope.pokemons = [];
-    $cookies.remove("pokemonsSalvos");
+    $cookies.remove("listaPokemons");
   };
 
 });
