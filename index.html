@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" ng-app="Pokemon">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon</title>
+
+  <link rel="icon" type="image/png" href="pokeball.png">
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular-cookies.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body ng-controller="MainController">
+
+  <div class="container">
+
+    <div class="search-box">
+      <h2>Buscar Pokémon</h2>
+
+      <form name="searchPokemon" ng-submit="search(name)">
+        <input type="text" ng-model="name" placeholder="Ex: Pikachu..." required />
+        <input type="submit" value="Buscar" />
+      </form>
+
+      <p class="error"> {{ error }} </p>
+    </div>
+
+    <div class="pokemon-info" ng-if="pokemon">
+      <h2>{{ pokemon.name }}</h2>
+
+      <ul class="pokemon-details">
+        <li><strong>ID:</strong> {{ pokemon.id }}</li>
+        <li><strong>Altura:</strong> {{ pokemon.height }}</li>
+        <li><strong>Peso:</strong> {{ pokemon.weight }}</li>
+        <li><strong>XP Base:</strong> {{ pokemon.base_experience }}</li>
+
+        <li>
+          <strong>Tipos:</strong>
+          <span ng-repeat="t in pokemon.types">
+            {{ t.type.name }}{{$last ? '' : ', '}}
+          </span>
+        </li>
+
+        <li>
+          <strong>Habilidades:</strong>
+          <span ng-repeat="a in pokemon.abilities">
+            {{ a.ability.name }}{{$last ? '' : ', '}}
+          </span>
+        </li>
+      </ul>
+
+      <div class="pokemon-sprite">
+        <img ng-if="pokemon.sprites" ng-src="{{ displaySprite }}" alt="{{ pokemon.name }}" />
+      </div>
+
+      <div class="btn-group">
+        <button ng-click="changeSprite('front_default')">Frente</button>
+        <button ng-click="changeSprite('front_shiny')">Shiny</button>
+        <button ng-click="changeSprite('back_default')">Verso</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" ng-if="pokemons.length > 0">
+    <h2>Pesquisados Anteriormente</h2>
+
+    <ul class="pokemon-list">
+      <li ng-repeat="pokemon in pokemons" ng-click="search(pokemon)">
+        {{ pokemon }}
+      </li>
+    </ul>
+
+    <small class="clear-list" ng-click="limparLista()">Limpar lista</small>
+  </div>
+
+</body>
+
+</html>
