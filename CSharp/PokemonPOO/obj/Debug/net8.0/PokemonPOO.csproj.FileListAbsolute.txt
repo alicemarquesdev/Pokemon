@@ -1,0 +1,14 @@
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\bin\Debug\net8.0\PokemonPOO.exe
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\bin\Debug\net8.0\PokemonPOO.deps.json
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\bin\Debug\net8.0\PokemonPOO.runtimeconfig.json
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\bin\Debug\net8.0\PokemonPOO.dll
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\bin\Debug\net8.0\PokemonPOO.pdb
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\PokemonPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\PokemonPOO.AssemblyInfoInputs.cache
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\PokemonPOO.AssemblyInfo.cs
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\PokemonPOO.csproj.CoreCompileInputs.cache
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\PokemonPOO.dll
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\refint\PokemonPOO.dll
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\PokemonPOO.pdb
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\PokemonPOO.genruntimeconfig.cache
+C:\Users\Pamela Rodrigues\source\repos\PokemonPOO\obj\Debug\net8.0\ref\PokemonPOO.dll

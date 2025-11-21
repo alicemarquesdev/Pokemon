@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\services\\treinadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:services\\treinadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\core\\entities\\treinador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:core\\entities\\treinador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\core\\abstracoes\\pokemonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:core\\abstracoes\\pokemonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\core\\entities\\insignia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:core\\entities\\insignia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\core\\abstracoes\\entidadebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:core\\abstracoes\\entidadebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\core\\interfaces\\iinsigniaconquistavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:core\\interfaces\\iinsigniaconquistavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\core\\interfaces\\ipokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:core\\interfaces\\ipokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\services\\batalhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:services\\batalhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\services\\pokemonfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:services\\pokemonfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\core\\entities\\pokemons\\pokemonfogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:core\\entities\\pokemons\\pokemonfogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|c:\\users\\pamela rodrigues\\source\\repos\\pokemonpoo\\core\\entities\\pokemons\\pokemonagua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EA372-94FB-4E08-A2E5-991CC8701C96}|PokemonPOO.csproj|solutionrelative:core\\entities\\pokemons\\pokemonagua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPokemon.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Interfaces\\IPokemon.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IPokemon.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Interfaces\\IPokemon.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IPokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:18:27.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IInsigniaConquistavel.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Interfaces\\IInsigniaConquistavel.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IInsigniaConquistavel.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Interfaces\\IInsigniaConquistavel.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IInsigniaConquistavel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:19:23.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:59:23.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Treinador.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Entities\\Treinador.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Treinador.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Entities\\Treinador.cs",
+              "RelativeToolTip": "Core\\Entities\\Treinador.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:58:03.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntidadeBase.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Abstracoes\\EntidadeBase.cs",
+              "RelativeDocumentMoniker": "Core\\Abstracoes\\EntidadeBase.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Abstracoes\\EntidadeBase.cs",
+              "RelativeToolTip": "Core\\Abstracoes\\EntidadeBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:05:11.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PokemonBase.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Abstracoes\\PokemonBase.cs",
+              "RelativeDocumentMoniker": "Core\\Abstracoes\\PokemonBase.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Abstracoes\\PokemonBase.cs",
+              "RelativeToolTip": "Core\\Abstracoes\\PokemonBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:07:39.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Insignia.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Entities\\Insignia.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Insignia.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Entities\\Insignia.cs",
+              "RelativeToolTip": "Core\\Entities\\Insignia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:47:44.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TreinadorService.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Services\\TreinadorService.cs",
+              "RelativeDocumentMoniker": "Services\\TreinadorService.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Services\\TreinadorService.cs",
+              "RelativeToolTip": "Services\\TreinadorService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T14:13:57.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BatalhaService.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Services\\BatalhaService.cs",
+              "RelativeDocumentMoniker": "Services\\BatalhaService.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Services\\BatalhaService.cs",
+              "RelativeToolTip": "Services\\BatalhaService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T14:12:49.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PokemonFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Services\\PokemonFactory.cs",
+              "RelativeDocumentMoniker": "Services\\PokemonFactory.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Services\\PokemonFactory.cs",
+              "RelativeToolTip": "Services\\PokemonFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T14:14:49.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PokemonFogo.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Entities\\Pokemons\\PokemonFogo.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Pokemons\\PokemonFogo.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Entities\\Pokemons\\PokemonFogo.cs",
+              "RelativeToolTip": "Core\\Entities\\Pokemons\\PokemonFogo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:32:05.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PokemonAgua.cs",
+              "DocumentMoniker": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Entities\\Pokemons\\PokemonAgua.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Pokemons\\PokemonAgua.cs",
+              "ToolTip": "C:\\Users\\Pamela Rodrigues\\source\\repos\\PokemonPOO\\Core\\Entities\\Pokemons\\PokemonAgua.cs",
+              "RelativeToolTip": "Core\\Entities\\Pokemons\\PokemonAgua.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:42:28.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
