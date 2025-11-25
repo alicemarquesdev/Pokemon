@@ -53,3 +53,58 @@ BEGIN
     ORDER BY TP.Nivel DESC;
 END;
 GO
+
+-----------------------------------------------------------------------------------------
+
+CREATE OR ALTER PROCEDURE sp_GerenciarTipo 
+    @Id INT, 
+    @Nome VARCHAR(50), 
+    @Operacao VARCHAR(1) = 'i' 
+AS 
+IF @Operacao = 'i' 
+BEGIN 
+    INSERT INTO Tipo (NomeTipo) 
+    VALUES (@Nome); 
+    SELECT SCOPE_IDENTITY(); 
+END 
+ELSE 
+    BEGIN 
+        IF @Operacao = 'd' 
+        BEGIN 
+            DELETE FROM Tipo 
+            WHERE IdTipo = @Id; 
+        END 
+        ELSE 
+        BEGIN
+            IF @Operacao = 'u' 
+            BEGIN 
+                UPDATE Tipo 
+                SET NomeTipo = @Nome 
+                WHERE IdTipo = @Id; 
+            END 
+        END 
+    END 
+    
+GO
+
+-----------------------------------------------------------------------------------------
+
+CREATE OR ALTER PROCEDURE sp_ResumoDoTreinador 
+    @IdTreinador INT 
+AS 
+BEGIN 
+    SELECT 
+        T.Nome AS Treinador, 
+        COUNT(TP.IdPokemon) AS QtdPokemons, 
+        AVG(TP.Nivel) AS MediaNivel_DoTime
+    FROM 
+        Treinador T 
+        INNER JOIN TreinadorPokemon TP ON T.IdTreinador = TP.IdTreinador 
+    WHERE 
+        T.IdTreinador = @IdTreinador
+    GROUP BY 
+        T.IdTreinador,
+        T.Nome
+
+END 
+GO

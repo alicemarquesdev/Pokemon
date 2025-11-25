@@ -39,3 +39,31 @@ LEFT JOIN TreinadorPokemon TP ON T.IdTreinador = TP.IdTreinador
 LEFT JOIN TreinadorInsignia TI ON T.IdTreinador = TI.IdTreinador
 GROUP BY T.IdTreinador, T.Nome, T.Regiao;
 GO
+
+-----------------------------------------------------------------------------------------
+
+CREATE VIEW vw_CatalogoTipos AS 
+SELECT 
+    IdTipo, 
+    NomeTipo AS Descricao 
+FROM Tipo
+
+------------------------
+
+CREATE OR ALTER VIEW vw_RankingGeral
+AS
+SELECT 
+    T.Nome AS Treinador,
+    T.Regiao,
+    COUNT(TP.IdPokemon) AS TotalCapturados,
+    MAX(TP.Nivel) AS Pokemon_MaisForte,    
+    MIN(TP.Nivel) AS Pokemon_MaisFraco       
+FROM 
+    Treinador T
+    INNER JOIN TreinadorPokemon TP ON T.IdTreinador = TP.IdTreinador
+GROUP BY 
+    T.Nome, 
+    T.Regiao
+
+-- Exemplo de execução
+SELECT * FROM vw_RankingGeral ORDER BY Pokemon_MaisForte DESC
